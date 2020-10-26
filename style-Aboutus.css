@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding:0px;
+}
+@font-face{
+	 font-family: font1;
+  src:url(Maragsâ-Display.otf);
+}
+@font-face{
+	font-family: font4;
+	 src: url(Signature Collection.ttf);
+}
+@font-face{
+	font-family: font2;
+	src:url(HelveticaNowText-Regular.ttf);
+}
+@font-face{
+	font-family: font3;
+	src:url(Casta-Thin.otf);
+}
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+#wrapper{
+	max-width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+.container{
+	width: 100%;
+	height: 130vh;
+	background-color: #2b4427;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top:2%;
+	position: relative;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 6%;
+	display: flex;
+	align-items:center;
+}
+.logo{
+	width: 20px;
+	cursor: pointer;
+}
+.menu-icon{
+	width: 20px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: font1;
+}
+.container h1{
+	position: absolute;
+	top: 30vh;
+	font-family: font1;
+	font-size: 5rem;
+	letter-spacing:2px;
+	color: #E9E9E9;
+		 -webkit-text-stroke: 0.1px #DFDFDF  ;
+  -webkit-text-fill-color: transparent;
+}
+.container h2{
+	position: absolute;
+	top: 70vh;
+	font-family: font2;
+	color: #E9E9E9;
+	letter-spacing: 1.5px;
+}
+.container p{
+	position: absolute;
+	top:78vh;
+	font-family: font2;
+	font-size: 0.6rem;
+	color: #E9E9E9;
+	letter-spacing: 1.6px;
+	line-height:15px;
+}
+.img1{
+	width: 20%;
+	height: 40vh;
+	background-image:url(333010d2afb343ef2d9c5872e3b170a2-5b3b70b9df77b.jpeg);
+	background-size: cover;
+	position: absolute;
+	right: 8%;
+	top: 45vh;
+	transition: transform .2s;
+	cursor: pointer;
+}
+.img1:hover{
+	transform: scale(1.1);
+	background-color: white;
+	opacity: 0.8;
+}
+.img2{
+	width: 20%;
+	height: 40vh;
+	background-image:url(9c5b8e20117055e8f869ad5225692cdc-5b3b70b9c03ef.jpeg);
+	background-size: cover;
+	position: absolute;
+	right: 30%;
+	top: 45vh;
+	transition: transform .2s;
+	cursor: pointer;
+
+}
+.img2:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+.img3{
+	width: 42%;
+	height: 30vh;
+	background-image: url(aishah-rahman-NU7UZ0NDQLk-unsplash.jpg);
+	background-size: cover;
+	position: absolute;
+	right: 8%;
+	top: 89vh;
+		transition: transform .2s;
+	cursor: pointer;
+
+}
+.img3:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+.footer{
+	width: 100%;
+	height: 10vh;
+	background-color: #1B1B1B;
+	color: white;
+	text-align: center;
+	font-family: font2;
+	font-size: 0.8rem;
+	
+}
+.footer p{
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
